@@ -1,0 +1,19 @@
+<h3 class="text-center">Bảng danh sách sinh viên</h3>
+<table class="table col-md-4 bg-light p-3">
+  <tr>
+    <th>Tên</th>
+    <th>Tuổi</th>
+    <th>Điểm TB</th>
+    <th>Địa chỉ</th>
+  </tr>
+
+
+  {{#each users}}
+  <tr>
+    <td>{{ten}}</td>
+    <td>{{tuoi}}</td>
+    <td>{{diemtb}}</td>
+    <td>{{diachi}}</td>
+  </tr>
+  {{/each}}
+</table>

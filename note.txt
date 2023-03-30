@@ -1,0 +1,7 @@
+npm init 
+npm install --save-dev nodemon
+npm install express --save
+npm install mongodb --save
+npm install mongoose
+npm install express-handlebars
+const uri = 'mongodb+srv://huuthiem:Anhthiem123@cluster0.vppscm2.mongodb.net/Cp17302?retryWrites=true&w=majority';
